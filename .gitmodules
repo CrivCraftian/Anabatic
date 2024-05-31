@@ -1,0 +1,3 @@
+[submodule "Anabatic/vendor/spdlog"]
+	path = Anabatic/vendor/spdlog
+	url = https://github.com/gabime/spdlog

@@ -6,6 +6,11 @@ extern Anabatic::Application* Anabatic::CreateApplication();
 
 int main(int argc, char** argv)
 {
+	Anabatic::Log::Init();
+	
+	AN_CORE_WARN("Initialized Log");
+	AN_INFO("Initalized Application");
+
 	auto app = Anabatic::CreateApplication();
 	app->Run();
 	delete app;
