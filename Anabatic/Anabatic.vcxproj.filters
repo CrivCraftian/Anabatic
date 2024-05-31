@@ -19,6 +19,7 @@
     <ClInclude Include="src\Anabatic\Log.h">
       <Filter>Anabatic</Filter>
     </ClInclude>
+    <ClInclude Include="src\anpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Anabatic\Application.cpp">
@@ -27,5 +28,6 @@
     <ClCompile Include="src\Anabatic\Log.cpp">
       <Filter>Anabatic</Filter>
     </ClCompile>
+    <ClCompile Include="src\anpch.cpp" />
   </ItemGroup>
 </Project>

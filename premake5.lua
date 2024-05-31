@@ -18,6 +18,9 @@ project "Anabatic"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "anpch.h"
+	pchsource "Anabatic/src/anpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
